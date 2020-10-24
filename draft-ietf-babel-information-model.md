@@ -179,7 +179,7 @@ The Information Model is hierarchically structured as follows:
 +-- babel-information
    +-- babel-implementation-version
    +-- babel-enable
-   +-- router-id
+   +-- babel-self-router-id
    +-- self-seqno
    +-- babel-metric-comp-algorithms
    +-- babel-security-supported
