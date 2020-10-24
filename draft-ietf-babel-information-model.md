@@ -534,7 +534,7 @@ babel-mac-enable:
   An implementation MAY choose
   to expose this parameter as read-only ("ro").
 
-babel-if-mac-keys-sets:
+babel-if-mac-key-sets:
 : List of references to the babel-mac entries that apply to this
   interface. When an interface instance is created, all babel-mac-key-sets
   instances with babel-mac-default-apply "true" will be included
@@ -828,7 +828,7 @@ babel-mac-default-apply:
   applied to all new babel-interface instances, by default.
   If "true", this instance is applied to
   new babel-interfaces instances at the time they are created, by including
-  it in the babel-interface-mac-keys list.
+  it in the babel-if-mac-key-sets list.
   If "false", this instance is not applied to new babel-interfaces
   instances when they are created.
   An implementation MAY choose
